@@ -1,0 +1,17 @@
+i=1
+while i<=50
+ puts i*10
+i+=1
+end
+
+i=1
+until i==51
+ puts i*10
+i+=1
+end
+
+i=0
+while i<499
+ puts i+10
+i+=10
+end

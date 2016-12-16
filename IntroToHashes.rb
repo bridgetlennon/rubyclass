@@ -19,7 +19,7 @@ now make your own menu below, please use the diner_menu variable name
 
 =end
 
-diner_menu =Hash.new 
+diner_menu =Hash.new
 diner_menu ["breakfast"]=["Acai bowl","Eggs and bacon","Pancakes", "Museli","Banana bread"]
 diner_menu ["drinks"]=["orange juice", "hot chocolate","coffee","water"]
 
@@ -39,3 +39,6 @@ diner_menu.each do |category,items|
       end
     end
   end
+=begin
+this prints all the diner menu and its catagories
+=end
